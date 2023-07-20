@@ -357,7 +357,7 @@ footer {
 .icon-2 {
     font-size: 40px;
     color: white;
-    background-color: blue;
+    /* background-color: blue; */
     border: none;
 
 }

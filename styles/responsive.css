@@ -99,7 +99,7 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+    gap: 0px;
     padding-left: 0px;
 }
 .footer{
@@ -108,7 +108,8 @@
 .footer-text{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10pxpx;
+    gap: 40px;
+    padding-left: 20px;
 }
 .ft{
     display: grid;
