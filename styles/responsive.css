@@ -102,14 +102,15 @@
     gap: 0px;
     padding-left: 0px;
 }
-.footer{
-    width: 700px;
+footer{
+    /* width: 700px; */
+    padding: 0px;
 }
 .footer-text{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 .ft{
     display: grid;
@@ -210,10 +211,12 @@
     }
 
     .footer-part {
+        padding-top: 20px;
         padding-left: 0px;
     }
 
     .footer-pic {
+        /* margin-top: 70px; */
         padding-left: 150px;
     }
 
