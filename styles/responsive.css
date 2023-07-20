@@ -104,7 +104,7 @@
 }
 footer{
     /* width: 700px; */
-    padding: 0px;
+    padding: 50px;
 }
 .footer-text{
     display: grid;
@@ -115,13 +115,18 @@ footer{
 .ft{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+    align-items: center;
+    gap: 10px;
 }
 .icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 .copywrite{
-    text-align: start;
+    text-align: center;
 }
 
 
@@ -207,18 +212,19 @@ footer{
     }
 
     footer {
+        padding: 50px;
         /* width: 450px;
         height: 800px; */
     }
 
     .footer-part {
-        padding-top: 20px;
+         padding-top: 20px;
         padding-left: 0px;
     }
 
     .footer-pic {
-        margin-top: 70px;
-        padding-left: 150px;
+     margin-top: 70px;
+     padding-left: 150px;
     }
 
     .icons {
