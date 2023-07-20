@@ -426,3 +426,6 @@ footer {
 .img-overlay * {
     transform: translateY(20px);
 }
+.copywrite{
+    text-align: center;
+}
