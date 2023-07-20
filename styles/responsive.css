@@ -96,6 +96,30 @@
     }
 
     /* position section ends here */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    padding-left: 0px;
+}
+.footer{
+    width: 700px;
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10pxpx;
+}
+.ft{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.icons{
+    gap: 15px;
+}
+
+
 }
 
 
